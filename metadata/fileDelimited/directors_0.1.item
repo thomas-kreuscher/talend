@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OZobIIV2Ee69O9m1VIxmHg" name="directors" id="_OZn0EIV2Ee69O9m1VIxmHg" dataPackage="_OZobIYV2Ee69O9m1VIxmHg" Server="Localhost 127.0.0.1" FilePath="E:/Users/Thomas/Desktop/Rossmann/Talend/tdi_gettingstarted_source_files/directors.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OZobIYV2Ee69O9m1VIxmHg" name="default" dataManager="_OZobIIV2Ee69O9m1VIxmHg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OZobIoV2Ee69O9m1VIxmHg" id="_DzCP4IV2Ee69O9m1VIxmHg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OZobI4V2Ee69O9m1VIxmHg" label="directorID" length="-1" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ejkdsIV3Ee69O9m1VIxmHg" name="directorName" label="directorName" length="40" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
