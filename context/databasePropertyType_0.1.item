@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_A512IIsREe6eGtrfGlC8fg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_A52dMIsREe6eGtrfGlC8fg" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1"/>
+    <contextParameter xmi:id="_A52dMYsREe6eGtrfGlC8fg" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_A52dMosREe6eGtrfGlC8fg" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MySQL"/>
+    <contextParameter xmi:id="_A52dM4sREe6eGtrfGlC8fg" comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_A52dNIsREe6eGtrfGlC8fg" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_B_cpsIvJEe6XyMRzaKmWpQ" confirmationNeeded="false" name="production">
+    <contextParameter xmi:id="_B_cpsYvJEe6XyMRzaKmWpQ" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1"/>
+    <contextParameter xmi:id="_B_cpsovJEe6XyMRzaKmWpQ" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_B_cps4vJEe6XyMRzaKmWpQ" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MySQL"/>
+    <contextParameter xmi:id="_B_cptIvJEe6XyMRzaKmWpQ" comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_B_cptYvJEe6XyMRzaKmWpQ" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_B_cptovJEe6XyMRzaKmWpQ" confirmationNeeded="false" name="test">
+    <contextParameter xmi:id="_B_cpt4vJEe6XyMRzaKmWpQ" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1"/>
+    <contextParameter xmi:id="_B_cpuIvJEe6XyMRzaKmWpQ" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_B_cpuYvJEe6XyMRzaKmWpQ" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MySQL"/>
+    <contextParameter xmi:id="_B_cpuovJEe6XyMRzaKmWpQ" comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_B_cpu4vJEe6XyMRzaKmWpQ" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
